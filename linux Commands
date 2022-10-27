@@ -1,0 +1,56 @@
+linux Commands
+-----------------
+1-whoami->print user name
+2-man(manual)->command manual page
+3-clear->clear terminal screan
+4-pwd->prnt working directory,locating current directory
+5-ls(list)->will open the folder path
+6-cd->change directory(cd -- ->exiting a folder)
+7-mkdir->make a directory(creating folder)
+8-touch->create an empty file
+9-rmdir->deleting empty directory
+10-rm->remove file or directory
+11-open->to open a file
+12-mv->moving a file
+13-cp->copying file
+14-head->out put the first ten part of a file
+15-tail->out put the last part of file
+16-date->print or set the system date and time
+17-cat->similar to tail in some way ,cat can also add content to a file and it
+        makes it super powerfull,give output aalso multiple output
+18-less->it shows the content stored inside a file ,in a nice and good UI and manual control
+19-echo->it print to the out the argument passed on it
+    e.q:-echo "username=sha" >hi.txt
+20-wc->print new line ,word ,and byte count for each file
+21-piping->used to combain two or more commands ,and in this the out put of one command act
+           as input to another command ,and this commant act as input to the next command
+22-sort->sorting files
+23-unique->sort lines of text ,it repote repeated files
+24-expansion->
+25-diff->checking different in two files
+26-find->find file or folder
+27-grep->helps find text inside the file
+28-du->estimate file space
+29-df->information about disk usage available where mounted
+30-history
+31-ps->computer running process shows
+32-top->a quick guid to the top commant ,used to list process running on real time display
+        update sorted information about process
+33-kill->send a signal to a process
+34-killall->kill process by name
+35-job
+36-bg(background)                                  
+37-gf(foreground)
+38-gzip->compress or expand files
+39-tar->used to archive,create ,extract or list from a tar file
+40-nano->another editor in terminal
+41-alias->always run a program with a set of options you like using
+42-xargs->build and execute command lines from standard input
+43-in->create a links , it's like a pointer to anither file
+        hard link-soft links
+44-who->display the users logged into the system
+45-su->switch to another user
+46-sudo->execute a command as another user , run a command as a root
+47-passwd->change user password
+48-chown->change file owner and group
+49-chmond->ulter and permission
